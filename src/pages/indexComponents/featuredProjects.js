@@ -1,8 +1,8 @@
 import React from "react"
-import featuredStyles from "./featuredProjects.module.css"
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { Link } from "gatsby"
 import ProjectCard from "../../components/project-card"
-import aboutStyles from "./about.module.css"
+
+import featuredStyles from "./featuredProjects.module.css"
 
 const featuredProjectsContent = ({projects}) => {
 
