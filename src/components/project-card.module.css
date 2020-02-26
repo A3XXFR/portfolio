@@ -1,0 +1,49 @@
+.card {
+    position: relative;
+    background: center #fff no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bg-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    height: 100%;
+    width: 100%;
+    background : linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+    transition: 0.25s ease-in-out;
+}
+
+.info {
+    padding: 10% 0 0 10%;
+}
+
+.title {
+    letter-spacing: 2px;
+}
+
+.project-address {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    color: #e4e4e4;
+}
+
+.vertical-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    writing-mode: tb-rl;
+    white-space: nowrap;
+}

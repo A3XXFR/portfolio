@@ -1,0 +1,31 @@
+.section-container {
+    position: relative;
+}
+
+.featured-cards-container {
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.projects-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+.background-heading {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 195px;
+    text-transform: uppercase;
+    opacity: 0.08;
+    z-index: -1;
+}
+
+.background-heading {
+    right: 0%;
+    bottom: -5%;
+}

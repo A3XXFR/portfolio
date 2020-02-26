@@ -1,0 +1,193 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --navy: #22252C;
+    --gunmetal: #1e1e1e;
+    --rusty-red: #984B43;
+    --sand-gold: #AB987A;
+    --white: #ffffff;
+    --light-grey: #f4f4f4;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../assets/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: frutiger;
+    src: url(../assets/fonts/Frutiger-LT-Arabic-45-Light.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../assets/fonts/OpenSans-bold.ttf);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: auto;
+    font-family: 'lato', sans-serif;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.gold-font {
+    color: var(--sand-gold);
+}
+
+h1 {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2.25em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.31em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2.section-header {
+    letter-spacing: 3.6px;
+    text-align: center;
+    padding: 9vh;
+}
+
+.arabic-text {
+    font-family: frutiger, sans-serif;
+}
+
+.instagram-icon,
+.linkedin-icon,
+.whatsapp-icon {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.instagram-icon {
+    background-image: url("../assets/icons/instagram-icon.png");
+}
+
+.linkedin-icon {
+    background-image: url("../assets/icons/linkedin-icon.png");
+}
+
+.whatsapp-icon {
+    background-image: url("../assets/icons/whatsapp-icon.png");
+}
+
+.autodesk-revit-icon {
+    background-image: url("../assets/icons/revit-icon.png");
+}
+
+.autodesk-autocad-icon {
+    background-image: url("../assets/icons/autocad-icon.png");
+}
+
+.mcneel-rhinoceros-icon {
+    background-image: url("../assets/icons/rhino3d-icon.png");
+}
+
+.graphisoft-archicad-icon {
+    background-image: url("../assets/icons/archicad-icon.png");
+}
+
+.adobe-illustrator-icon {
+    background-image: url("../assets/icons/Illustrator Icon.png");
+}
+
+.adobe-photoshop-icon {
+    background-image: url("../assets/icons/Photoshop Icon.png");
+}
+
+.adobe-premiere-icon {
+    background-image: url("../assets/icons/premiere-icon.png");
+}
+
+.adobe-after-effects-icon {
+    background-image: url("../assets/icons/aftereffects-icon.png");
+}
+
+.microsoft-office-icon {
+    background-image: url("../assets/icons/msoffice-icon.png");
+}
+
+.lumion-icon {
+    background-image: url("../assets/icons/lumion-icon.png");
+}
+
+.chaos-group-vray-icon {
+    background-image: url("../assets/icons/vray-icon.png");
+}
+
+.mcneel-grasshopper-icon {
+    background-image: url("../assets/icons/grasshopper-icon.png");
+}
+
+.hover-underline {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hover-underline:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+}
+
+.hover-underline-light:before {
+    background-color: #ffffff;
+}
+
+.hover-underline:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.link-button {
+    background: var(--sand-gold);
+    padding: 1.5vh 2vw;
+    width: auto;
+    color: #ffffff;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.link-button:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+    background: var(--gunmetal);
+}

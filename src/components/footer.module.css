@@ -1,0 +1,119 @@
+.footer {
+    display: grid;
+    grid-gap: .5vw;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-areas:
+        "title title title title title title"
+        "socialIcons address name email message message"
+        "socialIcons address phone company message message"
+        "formSubmit formSubmit formSubmit formSubmit formSubmit formSubmit"
+        "lowerFooter lowerFooter lowerFooter lowerFooter lowerFooter lowerFooter";
+    padding: 0 12%;
+}
+
+.footer-title {
+    grid-area: title;
+}
+
+.social-icons {
+    grid-area: socialIcons;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.social-icons > * {
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    transition: 125ms ease-in-out;
+}
+
+.address {
+    grid-area: address;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+form[name="contact-form"] {
+    display: none;
+}
+
+.name-input {
+    grid-area: name;
+}
+
+.email-input {
+    grid-area: email;
+}
+
+.phone-input {
+    grid-area: phone;
+}
+
+.company-input {
+    grid-area: company;
+}
+
+.message-input {
+    grid-area: message;
+}
+
+.small-input,
+.large-input {
+    border: none;
+    font-family: lato, sans-serif;
+    color : #666666;
+    padding: 2em;
+    background: #f0f0f0;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 0;
+    grid-area: formSubmit;
+}
+
+.form-submit > input {
+    border: none;
+    font-family: lato, sans-serif;
+}
+
+.lower-container {
+    grid-area: lowerFooter;
+    display: flex;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.footer-header {
+    background: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    width: 33.5%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 33.5%;
+}
+
+.nav-bar > * {
+    margin: 0 10%;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.copyright {
+    text-align: right;
+    color: #979797;
+    width: 33.5%;
+}

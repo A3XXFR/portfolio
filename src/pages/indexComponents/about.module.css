@@ -1,0 +1,41 @@
+.section-container {
+    display: flex;
+}
+
+.about-half-section {
+    margin: 0 2%;
+    width: 46%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-content {
+    width: 50%;
+    margin-left: auto;
+}
+
+.about-content p {
+    text-align: justify;
+}
+
+.about-image {
+    height: 100%;
+    width: 100%;
+    background: url("../../assets/images/Structure Diagram.png") left no-repeat;
+    background-size: contain;
+}
+
+.background-heading {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 195px;
+    text-transform: uppercase;
+    opacity: 0.08;
+    z-index: -1;
+}
+
+.background-heading {
+    left: 15%;
+    top: 15%;
+}
