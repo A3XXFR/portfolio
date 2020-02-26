@@ -6,15 +6,18 @@ import aboutStyles from "./about.module.css"
 
 const featuredProjectsContent = ({projects}) => {
 
-  if(projects.length > 4) {
-    projects = projects.slice(0,4)
+  if(projects != null) {
+    if(projects.length > 4) {
+      projects = projects.slice(0,4)
+    }
   }
+
 
   return (
     <section className={featuredStyles.sectionContainer}>
       <h2 className="section-header">Featured <span className="gold-font">Projects</span></h2>
       <div className={featuredStyles.featuredCardsContainer}>
-        {projects.map((node) => {
+        {projects != null ? projects.map((node) => {
           return (
             <ProjectCard
               key={node.node.id}
@@ -27,7 +30,7 @@ const featuredProjectsContent = ({projects}) => {
               thumbnail={node.thumbnail}
             />
           )
-        })}
+        }) : null }
       </div>
       <div className={`${featuredStyles.backgroundHeading} ${featuredStyles.backgroundHeading}`}>Projects</div>
       <div className={featuredStyles.projectsButtonContainer}>
