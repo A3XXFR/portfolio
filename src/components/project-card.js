@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from "gatsby"
+import Img from "gatsby-image"
 
 import cardStyles from './project-card.module.css'
-import Img from "gatsby-image"
 
 const ProjectCard = (props) => {
   return (
