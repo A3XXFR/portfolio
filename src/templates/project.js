@@ -6,7 +6,10 @@ import ProjectPageHero from "./components/projectPageHero"
 import DetailsContainer from "./components/detailsContainer"
 import Carousel from "./components/carousel"
 
+import projectStyles from "./project.module.css"
+
 const Project = (props) => {
+  console.log(props.data.drawings.edges.length !== 0)
   const heroImg = props.data.images.edges.find(image => image.node.base === props.data.markdownRemark.frontmatter.heroImage);
   const heroData = {
     projectName: props.data.markdownRemark.frontmatter.projectName + " " + props.data.markdownRemark.frontmatter.projectNameGold,
@@ -15,12 +18,15 @@ const Project = (props) => {
     heroImg: heroImg,
     tags: "",
   }
-  console.log(props.data.images.edges)
+  console.log(props)
   return (
     <Layout>
       <ProjectPageHero props={heroData} />
       <DetailsContainer props={props}/>
-      <Carousel props={props.data.images.edges}/>
+      <div className={projectStyles.carouselContainer}>
+        <Carousel props={props.data.images.edges}>Gallery</Carousel>
+        {props.data.drawings.edges.length !== 0 ? <Carousel props={props.data.drawings.edges}>Drawings</Carousel> : null}
+      </div>
     </Layout>
   )
 }
@@ -50,6 +56,10 @@ export const query = graphql`
         projectAddress
         heroImage
         thumbnail
+        projectStats {
+          name
+          value
+        }
       }
       html
     }
@@ -87,7 +97,7 @@ export const query = graphql`
           base
           childImageSharp {
             fluid(maxWidth: 1920, quality: 100) {
-              originalName
+              ...GatsbyImageSharpFluid
             }
           }
         }

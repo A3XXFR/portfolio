@@ -11,7 +11,32 @@ featuredDescription: "
     The verse: 'معكم ثقافه و علم و إتقان' from Sheikh Zayed’s poem, 'الشباب الباني' was the main inspiration behind the design of our pavilion. The design consists of three main concrete
     blocks. The large, 3 meter tall block imitates a book, representing knowledge and signifies
     Abu Dhabi Youth Hub as a center for the exchange of ideas."
+projectStats: 
+    - name: "Project Type"
+      value: "Pavilion"
+    - name: "Competition Outcome"
+      value: "Winner"
+    - name: "Site Area (sqm)"
+      value: "192"
+    - name: "Maximum Height (m)"
+      value: "3.4"
 ---
+
+### The Competition
+The brief provided by the Abu Dhabi Youth Hub called for:
+- A structure inspired by the phrase “ الشباب الباني ”, from the
+poem of the Late Sheikh Zayed Bin Sultan Al Nahyan.
+The material of the structure to be durable to withstand the harsh
+weather conditions.
+- Lighting to be considered; as the structure must be visible and lit
+at night time.
+- Participants to produce plans, sections, elevations, and 3D
+renders.
+
+The winning design was intended to be constructed and installed at the 
+Abu Dhabi Youth Hub front/main entrance area. However, limiting factors halted the project as shown here.
+A different design was conceived by Farasat Mirza and Rashed Al Mazrouei which was built and sits at the entrance of the Abu Dhabi Youth Hub.
+
 ####Our Inspiration
 The verse: 'معكم ثقافه و علم و إتقان' from Sheikh Zayed’s poem, 'الشباب الباني' was the main inspiration behind the design of our pavilion. The design consists of three main concrete
     blocks. The large, 3 meter tall block imitates a book, representing knowledge and signifies

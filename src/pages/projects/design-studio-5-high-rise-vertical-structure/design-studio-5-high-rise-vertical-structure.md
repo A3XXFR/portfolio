@@ -7,6 +7,17 @@ projectType: "Academic Architecture"
 heroImage: "02. Podium Elevtion.jpg"
 thumbnail: "01. Tower Hero Image.jpg"
 featured: true
+projectStats: 
+    - name: "Site Area (sqm)"
+      value: "10000"
+    - name: "Setback Area (sqm)"
+      value: "6000"
+    - name: "Floors"
+      value: "35"
+    - name: "Maximum Floor Height (m)"
+      value: "135"
+    - name: "Architectural Height (m)"
+      value: "172"
 ---
 
 ####The Site

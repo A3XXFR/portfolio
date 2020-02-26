@@ -6,8 +6,8 @@ import ProjectStatistics from "./ProjectStatistics"
 import ProjectDownloads from "./ProjectDownloads"
 
 const DetailsContainer = ({props}) => {
-  console.log(props)
   const html = props.data.markdownRemark.html
+  const projectStatistics = props.data.markdownRemark.frontmatter.projectStats
   // Build tabs Object {1:(tabName, component)}
   const tabs = [
     {
@@ -16,12 +16,12 @@ const DetailsContainer = ({props}) => {
     },
     {
       tabName: "Project Statistics",
-      component: <ProjectStatistics/>
+      component: <ProjectStatistics props={projectStatistics}/>
     },
-    {
+    /*{
       tabName: "Downloads",
       component: <ProjectDownloads/>
-    }
+    }*/
   ]
   // Set currentTab state
   // Handle tab Change
@@ -33,8 +33,6 @@ const DetailsContainer = ({props}) => {
     setIndex(index)
 
   const currentTab = tabs[index]
-
-  console.log(currentTab)
 
   return (
     <div className={detailContainerStyles.detailsContainer}>

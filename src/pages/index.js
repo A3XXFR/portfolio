@@ -12,7 +12,12 @@ import { graphql, useStaticQuery } from "gatsby"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark (
+        sort: {
+          fields: [frontmatter___projectName]
+          order: ASC
+        }
+      ){
         edges {
           node {
               frontmatter {

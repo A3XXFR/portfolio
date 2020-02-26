@@ -3,8 +3,10 @@ import Gallery from "./gallery"
 import carouselStyles from "./carousel.module.css"
 import Img from "gatsby-image"
 
-const Carousel = ({props}) => {
-  const img = props[0].node
+const Carousel = (props) => {
+  console.log(props)
+  const images = props.props
+  const img = images[0].node
   const [showGallery, setShowGallery] = useState(false)
 
   const updateGalleryVisibility = () => {
@@ -23,7 +25,8 @@ const Carousel = ({props}) => {
     }
   }
 
-  console.log(showGallery)
+  console.log(images)
+  console.log(img)
 
   return (
     <React.Fragment>
@@ -34,13 +37,16 @@ const Carousel = ({props}) => {
           key={img.id}
           alt={img.base.split(".")[1]}
           imgStyle={{
+            height: "100%",
             objectFit: "contain",
             objectPosition: "center center"
           }}
         />
-        <a className="hover-underline">Gallery</a>
+        <div className={carouselStyles.buttonContainer}>
+          <a className={`hover-underline ${carouselStyles.linkButton}`}>{props.children}</a>
+        </div>
       </div>
-      {showGallery ? <Gallery props={props} closerClicked={updateGalleryVisibility}/> : null}
+      {showGallery ? <Gallery props={images} closerClicked={updateGalleryVisibility}/> : null}
     </React.Fragment>
   )
 }

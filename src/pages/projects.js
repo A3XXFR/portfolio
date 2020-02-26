@@ -43,7 +43,12 @@ export default projectsPage
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark (
+    sort: {
+      fields: [frontmatter___projectName]
+      order: ASC
+    }
+  ){
       edges {
         node {
             frontmatter {

@@ -1,3 +1,29 @@
 .carousel-container {
     cursor: pointer;
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.carousel-container > div {
+    max-height: 100vh;
+}
+
+.button-container {
+    display: flex;
+}
+
+.link-button {
+    margin: 2vh auto;
+    background: var(--sand-gold);
+    padding: 1.5vh 2vw;
+    width: auto;
+    color: #ffffff;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    transition: 0.25s ease-in-out;
+}
+
+.link-button:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+    background: var(--gunmetal);
 }
