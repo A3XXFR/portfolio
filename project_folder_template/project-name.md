@@ -7,5 +7,11 @@ projectType: ""
 heroImage: ""
 thumbnail: ""
 featured: false
+featuredDescription: ""
+projectStats:
+    - name: ""
+      value: ""
+    - name: "Course Instructor"
+      value: ""
 ---
-#Abu Dhabi Youth Hub - External Pavilion
+#### Description

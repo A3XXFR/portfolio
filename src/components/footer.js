@@ -36,7 +36,7 @@ const Footer = () => {
         <a href={`mailto:${data.site.siteMetadata.email}`} className="footer-address-line">{data.site.siteMetadata.email}</a>
         <div className="footer-address-line">5 Khalifa Street, Abu Dhabi, UAE</div>
       </div>
-      <form action="/" name="contact-form"/>
+      <form name="contact-form" method="POST" data-netlify="true"/>
       <input className={`${footerStyles.smallInput} ${footerStyles.nameInput}`} form="contact-form" type="text" name="name" placeholder="Name" required/>
       <input className={`${footerStyles.smallInput} ${footerStyles.emailInput}`} form="contact-form" type="email" name="email" placeholder="Email" required/>
       <input className={`${footerStyles.smallInput} ${footerStyles.phoneInput}`} form="contact-form" type="tel" name="phone" placeholder="Phone" required/>

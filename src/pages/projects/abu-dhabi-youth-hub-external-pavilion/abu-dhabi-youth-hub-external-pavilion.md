@@ -20,9 +20,11 @@ projectStats:
       value: "192"
     - name: "Maximum Height (m)"
       value: "3.4"
+    - name: "Collaborator"
+      value: "Rashed Al Mazrouei"
 ---
 
-### The Competition
+#### The Competition
 The brief provided by the Abu Dhabi Youth Hub called for:
 - A structure inspired by the phrase “ الشباب الباني ”, from the
 poem of the Late Sheikh Zayed Bin Sultan Al Nahyan.
@@ -37,7 +39,7 @@ The winning design was intended to be constructed and installed at the
 Abu Dhabi Youth Hub front/main entrance area. However, limiting factors halted the project as shown here.
 A different design was conceived by Farasat Mirza and Rashed Al Mazrouei which was built and sits at the entrance of the Abu Dhabi Youth Hub.
 
-####Our Inspiration
+#### Our Inspiration
 The verse: 'معكم ثقافه و علم و إتقان' from Sheikh Zayed’s poem, 'الشباب الباني' was the main inspiration behind the design of our pavilion. The design consists of three main concrete
     blocks. The large, 3 meter tall block imitates a book, representing knowledge and signifies
     Abu Dhabi Youth Hub as a center for the exchange of ideas.
@@ -55,7 +57,7 @@ taking inspiration from modern cultural sights in
 Abu Dhabi such as The Founder's Memorial , Wahat
 Al Karama, and Qaser al Hoson.
 
-####Integrating with the Surroundings
+#### Integrating with the Surroundings
 We wanted our pavilion to integrate with its surroundings, namely with the main Youth Hub
 building.
 The Youth Hub building has an organic shape inspired by the rear wing of an F1 race car.
@@ -64,7 +66,7 @@ a building of some other purpose, we decided to add a cantilevered concrete cano
 The combination of angular and organic design blended seamlessly together create for an overall
 striking, visually appealing and clean modern design.
 
-####Providing Access to the Main Building
+#### Providing Access to the Main Building
 As our design progressed, an issue arose. Access to the main building was obscured by the pavilions canopy/shading element.
 This meant that people would be inconvenienced, as they would have to walk to one side of the pavilion to enter and exit.
 The solution to this problem came in the form of
