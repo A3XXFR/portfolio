@@ -19,6 +19,8 @@ projectStats:
       value: "135"
     - name: "Architectural Height (m)"
       value: "172"
+    - name: "Course"
+      value: "Design Studio V"
     - name: "Course Instructor"
       value: "Dr. Apostolos Kyriazis"
 ---

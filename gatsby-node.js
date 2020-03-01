@@ -32,7 +32,7 @@ module.exports.createPages = async ({graphql, actions }) => {
       }
     }
   `)
-
+  console.log("@@@@", res.data.allMarkdownRemark.edges)
   res.data.allMarkdownRemark.edges.forEach((edge) => {
     const imagesPath = path.parse(edge.node.fileAbsolutePath).dir + '/images'
     const drawingsPath = path.parse(edge.node.fileAbsolutePath).dir + '/drawings'

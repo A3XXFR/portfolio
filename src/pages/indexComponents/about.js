@@ -9,19 +9,24 @@ const aboutContent = () => {
         <div className={aboutStyles.aboutHalfSection}>
           <div className={aboutStyles.aboutContent}>
             <h2>Modern, Technical, Beautiful</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            <p>
+              An enthusiastic, burgeoning, resourceful and meticulous architecture student with highly effective skills in
+              conceptualizing and developing architecture of great value and appeal. Works zealously using modern
+              computer tools and applications to generate design proposals according to defined client needs and criteria.
+            </p>
+            <p>
+              Understands the project management concept and has experience articulating and communicating
+              business requirements with team members and contractors.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-              in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-              vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi.</p>
-
-            <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-              laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-              laoreet dolore magna aliquam erat volutpat.</p>
+              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat volutpat.
+            </p>
           </div>
         </div>
         <div className={aboutStyles.aboutHalfSection}>

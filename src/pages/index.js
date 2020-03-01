@@ -58,7 +58,7 @@ const IndexPage = () => {
   let featuredProjects = projects.filter(project => {
     return project.node.frontmatter.featured === true
   })
-
+  console.log(projects)
   if(featuredProjects.length > 5) {
     featuredProjects = featuredProjects.slice(0,5)
   }

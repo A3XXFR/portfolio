@@ -13,6 +13,10 @@ projectStats:
       value: "96006"
     - name: "Typical Villa Types"
       value: "3"
+    - name: "Group Collaborators"
+      value: "Ahmed Osman, Ahmed Youssef, Ayman H. Saad-Eldin, Yousef Al-Rawee"
+    - name: "Course"
+      value: "Urban Design"
     - name: "Course Instructor"
       value: "Dr. Rim Meziani"
 ---

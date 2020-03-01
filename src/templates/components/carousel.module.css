@@ -2,6 +2,7 @@
     cursor: pointer;
     width: 100%;
     margin-bottom: 10vh;
+    transition: 0.25s ease-in-out;
 }
 
 .carousel-container > div {

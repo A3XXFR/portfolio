@@ -11,6 +11,10 @@ featuredDescription: "The Garden of Gardens is a park featuring several smaller 
 projectStats:
     - name: "Number of Gardens"
       value: "7"
+    - name: "Group Collaborators"
+      value: "Ahmed Osman, Ahmed Youssef, Faisal Ahmed, Mohammed Hassoun, Sooraj VV"
+    - name: "Course"
+      value: "Landscape Architecture"
     - name: "Course Instructor"
       value: "Ms. Tamara Kelly"
 ---
