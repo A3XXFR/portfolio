@@ -117,3 +117,55 @@ form[name="contact-form"] {
     color: #979797;
     width: 33.5%;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        grid-gap: 5vw;
+        grid-template-columns: auto;
+        grid-template-areas:
+                "title title"
+                "socialIcons address"
+                "name name"
+                "email email"
+                "phone phone"
+                "company company"
+                "message message"
+                "formSubmit formSubmit"
+                "lowerFooter lowerFooter";
+        padding: 0 5%;
+    }
+
+    .social-icons {
+        padding: 0 15%;
+    }
+
+    .social-icons > a:nth-child(2) {
+        margin: 75% 0;
+    }
+
+    .small-input,
+    .large-input {
+        padding: 1.5em;
+    }
+
+    .form-submit > input {
+        width: 100%;
+    }
+
+    .lower-container {
+        flex-direction: column;
+    }
+
+    .lower-container > * {
+        width: auto;
+    }
+
+    .copyright {
+        font-size: smaller;
+        text-align: center;
+    }
+
+    .nav-bar {
+        margin: 10% 0;
+    }
+}

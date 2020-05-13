@@ -10,7 +10,7 @@ module.exports = {
     author: 'Farasat Mirza',
     email: 'info@farasatmirza.com',
     social: {
-      instagram: 'https://www.instagram.com',
+      instagram: 'https://www.instagram.com/_farasatmirza/',
       linkedin: 'https://www.linkedin.com/in/farasatmirza/',
       whatsapp: 'https://www.whatsapp.com',
     }

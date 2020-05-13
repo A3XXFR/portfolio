@@ -39,3 +39,31 @@
     left: 15%;
     top: 15%;
 }
+
+@media only screen and (max-width: 768px) {
+    .section-container {
+        flex-direction: column;
+    }
+
+    .about-half-section {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    .about-content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .about-content p {
+        text-align: justify;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .background-heading {
+        display: none;
+    }
+}

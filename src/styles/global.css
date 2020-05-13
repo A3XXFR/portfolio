@@ -191,3 +191,21 @@ h2.section-header {
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
     background: var(--gunmetal);
 }
+
+@media only screen and (max-width: 768px){
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.31em;
+    }
+
+    .link-button {
+        padding: 4vw;
+    }
+}

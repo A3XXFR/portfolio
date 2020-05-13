@@ -60,3 +60,14 @@
     transform: rotate(-180deg);
     margin-top: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .cards-section-container {
+        grid-template-columns: auto;
+        height: auto;
+    }
+
+    .cards-section-container > a {
+        height: 80vh;
+    }
+}

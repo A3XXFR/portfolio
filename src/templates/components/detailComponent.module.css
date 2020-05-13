@@ -30,3 +30,22 @@
     align-items: center;
     text-align: justify;
 }
+
+@media only screen and (max-width: 768px) {
+    .details-container {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .details-navigation {
+        width: 85%;
+        margin: auto;
+        align-items: flex-end;
+    }
+
+    .content-container {
+        width: 85%;
+        padding: initial;
+        margin: 10% auto;
+    }
+}

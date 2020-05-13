@@ -13,15 +13,20 @@
 
 .hero-details-container {
     position: absolute;
-    width: 100%;
     bottom: 0;
     color: #ffffff;
+    width: 100%;
     z-index: 2;
-    padding: 8% 2% 2% 2%;
+    padding: 3vh;
+    box-sizing: border-box;
     background : linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .hero-details-container > h2 {
     margin-top: 0.5%;
     text-transform: none;
+}
+
+@media only screen and (max-width: 768px) {
+
 }

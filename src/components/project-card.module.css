@@ -47,3 +47,9 @@
     writing-mode: tb-rl;
     white-space: nowrap;
 }
+
+@media only screen and (max-width: 768px) {
+    .vertical-text {
+        display: none;
+    }
+}

@@ -23,6 +23,7 @@ const Gallery = (props) => {
       <div className={galleryStyles.closeButton} onClick={props.closerClicked}>&#10005;</div>
       <div className={galleryStyles.imgThumbsContainer}>
         {images.map((image, index) => {
+          console.log(image.node.childImageSharp.fluid)
           return (
             <div
               onClick={() => setImage(index)}

@@ -31,10 +31,10 @@ const Footer = () => {
         <a className="whatsapp-icon" href={data.site.siteMetadata.social.whatsapp}/>
       </div>
       <div className={footerStyles.address}>
-        <div className="footer-address-line">+971 52 998 7374</div>
-        <div className="footer-address-line">+971 55 949 9602</div>
-        <a href={`mailto:${data.site.siteMetadata.email}`} className="footer-address-line">{data.site.siteMetadata.email}</a>
-        <div className="footer-address-line">5 Khalifa Street, Abu Dhabi, UAE</div>
+        <div>+971 52 998 7374</div>
+        <div>+971 55 949 9602</div>
+        <a href={`mailto:${data.site.siteMetadata.email}`}>{data.site.siteMetadata.email}</a>
+        <div>5 Khalifa Street, Abu Dhabi, UAE</div>
       </div>
       <form name="contact-form" method="POST" data-netlify="true"/>
       <input className={`${footerStyles.smallInput} ${footerStyles.nameInput}`} form="contact-form" type="text" name="name" placeholder="Name" required/>
