@@ -1,5 +1,6 @@
 import React from "react"
 
+import Head from '../components/head'
 import LandingHeading from "./indexComponents/LandingHeading"
 import AboutContent from "./indexComponents/about"
 import FeaturedProject from "./indexComponents/featuredProjects"
@@ -58,7 +59,7 @@ const IndexPage = () => {
   let featuredProjects = projects.filter(project => {
     return project.node.frontmatter.featured === true
   })
-  console.log(projects)
+
   if(featuredProjects.length > 5) {
     featuredProjects = featuredProjects.slice(0,5)
   }
@@ -76,6 +77,10 @@ const IndexPage = () => {
 
   return (
     <React.Fragment>
+      <Head
+        title="Home"
+        description="Explore Farasat Mirza's projects and expertise in Architecture and Design."
+      />
       <LandingHeading projects={featuredProjects}/>
       <AboutContent/>
       <FeaturedProject projects={featuredProjects}/>

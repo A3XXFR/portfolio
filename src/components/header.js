@@ -6,7 +6,7 @@ import headerStyles from './header.module.css'
 const Header = (props) => {
   let isMobile
   if (typeof window !== 'undefined')
-    isMobile = window.matchMedia("only screen and (max-width: 760px)").matches
+    isMobile = window.matchMedia("only screen and (max-width: 768px)").matches
 
   console.log("Mobile? "+isMobile)
 

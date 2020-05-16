@@ -26,13 +26,12 @@ const Footer = () => {
     <footer className={footerStyles.footer}>
       <h2 className={`section-header ${footerStyles.footerTitle}`}>Get <span className="gold-font">In Touch</span></h2>
       <div className={footerStyles.socialIcons}>
-        <a className="instagram-icon" href={data.site.siteMetadata.social.instagram}/>
-        <a className="linkedin-icon" href={data.site.siteMetadata.social.linkedin}/>
-        <a className="whatsapp-icon" href={data.site.siteMetadata.social.whatsapp}/>
+        <a className="instagram-icon" href={data.site.siteMetadata.social.instagram}>Instagram</a>
+        <a className="linkedin-icon" href={data.site.siteMetadata.social.linkedin}>LinkedIn</a>
+        <a className="whatsapp-icon" href={data.site.siteMetadata.social.whatsapp}>WhatsApp</a>
       </div>
       <div className={footerStyles.address}>
         <div>+971 52 998 7374</div>
-        <div>+971 55 949 9602</div>
         <a href={`mailto:${data.site.siteMetadata.email}`}>{data.site.siteMetadata.email}</a>
         <div>5 Khalifa Street, Abu Dhabi, UAE</div>
       </div>

@@ -28,6 +28,7 @@
     width: 20px;
     opacity: .5;
     transition: 125ms ease-in-out;
+    font-size: 0;
 }
 
 .address {

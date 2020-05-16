@@ -6,16 +6,20 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Farasat Mirza',
+    defaultTitle: 'Portfolio',
+    titleTemplate: '%s · Farasat Mirza',
+    defaultDescription: 'Explore Farasat Mirza\'s projects and expertise in Architecture and Design.',
+    siteUrl: 'https://www.farasatmirza.com',
     author: 'Farasat Mirza',
-    email: 'info@farasatmirza.com',
+    email: 'farmirza98@gmail.com',
     social: {
       instagram: 'https://www.instagram.com/_farasatmirza/',
       linkedin: 'https://www.linkedin.com/in/farasatmirza/',
       whatsapp: 'https://www.whatsapp.com',
-    }
+    },
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {

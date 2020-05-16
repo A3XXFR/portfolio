@@ -2,10 +2,11 @@ import React from "react"
 import {graphql} from "gatsby"
 import Layout from "../components/layout"
 
+import Head from "../components/head"
 import ProjectPageHero from "./components/projectPageHero"
 import DetailsContainer from "./components/detailsContainer"
-import Carousel from "./components/carousel"
 
+import Carousel from "./components/carousel"
 import projectStyles from "./project.module.css"
 
 const Project = (props) => {
@@ -21,6 +22,10 @@ const Project = (props) => {
   console.log(props)
   return (
     <Layout>
+      <Head
+        title={heroData.projectName}
+        description={props.data.markdownRemark.frontmatter.featuredDescription}
+      />
       <ProjectPageHero props={heroData} />
       <DetailsContainer props={props}/>
       <div className={projectStyles.carouselContainer}>
@@ -56,6 +61,7 @@ export const query = graphql`
         projectAddress
         heroImage
         thumbnail
+        featuredDescription
         projectStats {
           name
           value

@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import ProjectCard from "../components/project-card"
 
 import projectStyles from "./project.module.css"
+import Head from "../components/head"
 
 const projectsPage = ({data}) => {
   const projects = data.allMarkdownRemark.edges
@@ -19,6 +20,10 @@ const projectsPage = ({data}) => {
 
   return (
     <Layout>
+      <Head
+        title="Browse Projects"
+        description="Browse featured projects and an extensive archive of work."
+      />
       <div className={projectStyles.largeTitle}> Projects </div>
       <div className={projectStyles.cardsContainer}>
         {projects.map((node) => {
