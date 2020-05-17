@@ -4,13 +4,11 @@ projectNameGold: "External Pavilion"
 projectDate: "2019"
 projectAddress: "Heritage Park, Al Mina, Abu Dhabi"
 projectType: "Architecture Competition"
-heroImage: "12. [Night] Drone View.png"
+heroImage: "03. [SOLO] Block Focus Elevation.png"
 thumbnail: "03. [SOLO] Block Focus Elevation.png"
 featured: true
 featuredDescription: "
-    The verse: 'معكم ثقافه و علم و إتقان' from Sheikh Zayed’s poem, 'الشباب الباني' was the main inspiration behind the design of our pavilion. The design consists of three main concrete
-    blocks. The large, 3 meter tall block imitates a book, representing knowledge and signifies
-    Abu Dhabi Youth Hub as a center for the exchange of ideas."
+    The verse: 'معكم ثقافه و علم و إتقان' from Sheikh Zayed’s poem, 'الشباب الباني' was the main inspiration behind the design of our pavilion. The design consists of three main concrete blocks. The large, 3 meter tall block imitates a book, representing knowledge and signifies Abu Dhabi Youth Hub as a center for the exchange of ideas."
 projectStats: 
     - name: "Project Type"
       value: "Pavilion"
@@ -40,12 +38,9 @@ Abu Dhabi Youth Hub front/main entrance area. However, limiting factors halted t
 A different design was conceived by Farasat Mirza and Rashed Al Mazrouei which was built and sits at the entrance of the Abu Dhabi Youth Hub.
 
 #### Our Inspiration
-The verse: 'معكم ثقافه و علم و إتقان' from Sheikh Zayed’s poem, 'الشباب الباني' was the main inspiration behind the design of our pavilion. The design consists of three main concrete
-    blocks. The large, 3 meter tall block imitates a book, representing knowledge and signifies
-    Abu Dhabi Youth Hub as a center for the exchange of ideas.
+The verse: 'معكم ثقافه و علم و إتقان' from Sheikh Zayed’s poem, 'الشباب الباني' was the main inspiration behind the design of our pavilion. The design consists of three main concrete blocks. The large, 3 meter tall block imitates a book, representing knowledge and signifies Abu Dhabi Youth Hub as a center for the exchange of ideas.
     
-The two smaller blocks represent youth. These smaller blocks look to be leaning on the largest block, creating imagery of youth gaining knowledge from a
-book.
+The two smaller blocks represent youth. These smaller blocks look to be leaning on the largest block, creating imagery of youth gaining knowledge from a book.
 
 #### Early Sketch
 The first idea in the thought process was to create a
