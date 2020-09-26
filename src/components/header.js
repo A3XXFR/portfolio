@@ -6,7 +6,7 @@ import headerStyles from './header.module.css'
 const Header = (props) => {
   let isMobile
   if (typeof window !== 'undefined')
-    isMobile = window.matchMedia("only screen and (max-width: 760px)").matches
+    isMobile = window.matchMedia("only screen and (max-width: 768px)").matches
 
   console.log("Mobile? "+isMobile)
 
@@ -35,8 +35,10 @@ const Header = (props) => {
     hamburgerStyles.color = `#ffffff`
 
   const toggleMenu = () => {
-    console.log(menuOpen)
-    setMenuOpen(!menuOpen)
+    if(isMobile) {
+      console.log(menuOpen)
+      setMenuOpen(!menuOpen)
+    }
   }
 
   props.fixedHeader==="true" ? containerStyles.position = `fixed` : containerStyles.position = `relative`

@@ -1,7 +1,7 @@
 ---
 projectName: "The Fragments"
 projectNameGold: "Tower"
-projectDate: "2020"
+projectDate: "2019"
 projectAddress: "Corniche Road, Abu Dhabi"
 projectType: "Academic Architecture"
 heroImage: "02. Podium Elevtion.jpg"

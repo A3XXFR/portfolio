@@ -6,7 +6,7 @@ projectAddress: "S’adiyaat Marina District, Abu Dhabi"
 projectType: "Academic Architecture"
 heroImage: "Landscaping - Full.png"
 thumbnail: "Landscaping - Event Hall.png"
-featured: true
+featured: false
 featuredDescription: "The Garden of Gardens is a park featuring several smaller gardens. Each garden represents a different kind of garden from cultures all around the world. This reflects the acceptance of the United Arab Emirates of all sorts of different cultures from all over the world."
 projectStats:
     - name: "Number of Gardens"
