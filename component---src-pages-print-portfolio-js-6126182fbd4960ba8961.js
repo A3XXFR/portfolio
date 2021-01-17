@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{oBRS:function(n,t,e){"use strict";e.r(t);var u=e("q1tI"),o=e("YwZP");t.default=function(){return Object(u.useEffect)((function(){Object(o.navigate)("/downloads").then((function(n){return null}))}),[]),null}}}]);
+//# sourceMappingURL=component---src-pages-print-portfolio-js-6126182fbd4960ba8961.js.map

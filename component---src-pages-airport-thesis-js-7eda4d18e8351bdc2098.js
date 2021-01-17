@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{qUq4:function(n,t,e){"use strict";e.r(t);var u=e("q1tI"),c=e("YwZP");t.default=function(){return Object(u.useEffect)((function(){Object(c.navigate)("/downloads").then((function(n){return null}))}),[]),null}}}]);
+//# sourceMappingURL=component---src-pages-airport-thesis-js-7eda4d18e8351bdc2098.js.map
