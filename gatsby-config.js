@@ -11,7 +11,7 @@ module.exports = {
     defaultDescription: 'Explore Farasat Mirza\'s projects and expertise in Architecture and Design.',
     siteUrl: 'https://www.farasatmirza.com',
     author: 'Farasat Mirza',
-    email: 'farmirza98@gmail.com',
+    email: 'info@farasatmirza.com',
     social: {
       instagram: 'https://www.instagram.com/_farasatmirza/',
       linkedin: 'https://www.linkedin.com/in/farasatmirza/',
@@ -27,8 +27,15 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          "gatsby-remark-sub-sup"
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-transformer-remark',
   ]
 }

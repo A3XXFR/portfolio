@@ -50,7 +50,7 @@ const Header = (props) => {
         <span>Farasat&#160;<span className="gold-font">M.</span></span>
         <div className={headerStyles.headingSubtext}>Architect & Designer</div>
       </Link>
-      <div className={headerStyles.contactInfo}>+971 52 998 7374</div>
+      <Link to="/downloads" className={headerStyles.contactInfo}>Download Portfolio</Link>
       {menuOpen &&
       <div className={headerStyles.navBar} id="navBar">
         <Link to="/" className="hover-underline" onClick={toggleMenu}>Home</Link>

@@ -2,7 +2,9 @@ import React from "react"
 
 const ProjectMarkdown = ({props}) => {
   return (
-    <div dangerouslySetInnerHTML={{ __html: props }}/>
+    <div>
+      <div dangerouslySetInnerHTML={{ __html: props }}/>
+    </div>
   )
 }
 

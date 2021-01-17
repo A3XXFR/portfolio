@@ -33,7 +33,7 @@ const Footer = () => {
       <div className={footerStyles.address}>
         <div>+971 52 998 7374</div>
         <a href={`mailto:${data.site.siteMetadata.email}`}>{data.site.siteMetadata.email}</a>
-        <div>5 Khalifa Street, Abu Dhabi, UAE</div>
+        <div>5 Corniche Road, Abu Dhabi, UAE</div>
       </div>
       <form name="contact-form" method="POST" data-netlify="true"/>
       <input className={`${footerStyles.smallInput} ${footerStyles.nameInput}`} form="contact-form" type="text" name="name" placeholder="Name" required/>

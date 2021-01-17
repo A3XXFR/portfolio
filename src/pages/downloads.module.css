@@ -1,0 +1,81 @@
+.heading {
+    margin: 0 10%;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 195px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.downloadCardContainer{
+    display: grid;
+    margin: 2% 10%;
+    grid-gap: 5em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.downloadCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: .125s ease-in-out;
+    background: #1e1e1e;
+    color: #fff;
+}
+
+.downloadCard:hover{
+    background: #22252C;
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+}
+
+.nameAndDescription{
+    justify-content: left;
+    padding: 2.5vh 2vw;
+}
+
+.nameAndDescription > p{
+    margin: 0;
+    font-size: x-large;
+}
+
+.downloadButton {
+    display: flex;
+    align-items: center;
+    background-color: #AB987A;
+    height: 100%;
+    padding: 0 2vw;
+    font-size: larger;
+    transition: .125s ease-in-out;
+}
+
+.downloadCard:hover .downloadButton{
+    background: #984B43;
+}
+
+@media only screen and (max-width: 768px) {
+    .heading {
+        font-size: xxx-large;
+        margin: 5vh 0;
+        text-align: center;
+    }
+
+    .downloadCardContainer{
+        margin: 0 5%;
+        grid-gap: 2em;
+        grid-template-columns: 1fr;
+    }
+
+    .nameAndDescription{
+        padding: 2.5vh 10vw;
+    }
+
+    .nameAndDescription > p{
+        font-size: large;
+    }
+
+    .downloadButton {
+        padding: 0 10vw;
+    }
+}
